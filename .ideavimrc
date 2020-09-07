@@ -21,5 +21,5 @@ nnoremap gb :action JumpToLastChange<CR>
 nnoremap U :action FindUsages<CR>
 nnoremap R :action RenameElement<CR>
 
-nnoremap T :action ActivateTerminalToolWindow<CR>
-nnoremap <leader>c :action ActivatePythonConsoleToolWindow<CR>
+nnoremap <leader>t :action ActivateTerminalToolWindow<CR>
+nnoremap <leader>p :action ActivatePythonConsoleToolWindow<CR>
