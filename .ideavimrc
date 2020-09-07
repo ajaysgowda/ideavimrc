@@ -3,9 +3,9 @@ set number
 let mapleader = " "
 
 " go next tab
-nmap <leader>n :action NextTab<cr>
+nmap <leader>j :action NextTab<cr>
 " go Previous tab
-nmap <leader>b :action PreviousTab<cr>
+nmap <leader>h :action PreviousTab<cr>
 
 nmap <leader>g :action GotoDeclaration<cr>
 
