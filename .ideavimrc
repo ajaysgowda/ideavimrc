@@ -5,9 +5,9 @@ let mapleader = " "
 " go next tab
 nmap <leader>l :action NextTab<cr>
 " go Previous tab
-nmap <leader>h :action PreviousTab<cr>
+nmap <leader>j :action PreviousTab<cr>
 
-nmap <leader>g :action GotoDeclaration<cr>
+nmap <leader>k :action GotoDeclaration<cr>
 
 " Won't work in visual mode (with vmap) for some reason.
 " Use default map of <c-/> for that.
